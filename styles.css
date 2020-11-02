@@ -1,0 +1,220 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 16px;
+  
+}
+
+header {
+    display: grid;
+    grid-auto-flow: row;
+    background: #ffffff;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none ;
+    color : black;
+    font-size:18px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 0;   
+}
+
+a:hover{
+    color:#5a67d8
+}
+
+
+.container h1 {
+    float: left;
+}
+
+.container nav{
+    
+    height: 70px;
+    line-height: 70px;
+   
+    display: inline;
+    float: right;
+    padding-right: 10%;
+
+ }
+
+
+     
+     
+  
+
+.container nav ul li {
+   display: inline-block;
+   font-size: 100%;
+   color:black;
+   margin: 0 0 3px 0;
+   padding: 1px;
+   padding-left: 30px;
+
+  
+  } 
+
+  .overview-hero .container {
+      display: grid;
+      
+      grid-template-columns: 500px 450px;
+      grid-column-gap: 5%;
+      background-color: #e2e8f0;
+     /* grid-column: span 3 ;*/ 
+  }
+
+  .overview-hero-text {
+      grid-column-start: 2;
+      padding-top: 15%;
+      padding-left: 30%;
+  }
+
+  .overview-hero .overview-hero-image img {
+    grid-column-end: 2 ;
+    max-width: 70%;
+    height : auto;
+    padding-left: 25%;
+}
+
+.learn-about  .container h2 {
+    display: grid;
+    grid-auto-flow: row;
+   color: #48BB78;
+   padding-left: 10%;
+    padding-top: 5%;
+   
+}
+
+.learn-about  .container .cards {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 10%;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+   
+    
+}
+
+.learn-about  .container .cards  h3{
+    color: #48BB78;
+    font-weight: 21px;
+}
+
+.learn-about  .container .card{
+    border-radius: 25px;
+    border: 5px solid #e2e8f0;
+}
+
+.learn-about  .container .card img{
+    padding-top: 5%;
+    max-width: 70%;
+    height :auto;
+}
+
+
+.testing  .container {
+    display: grid;
+    grid-auto-flow: row;
+   background-color: #4a5568;
+   grid-template-columns: 400px 200px  300px;
+
+}
+
+.testing  .container .testing-desciption{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    color: white;
+    grid-column : span 2;
+}
+
+.testing  .container .cta{
+    background-color: #48BB78;
+    border-radius: 5px;
+    
+    grid-column-start: 3;
+    max-width:  60%;
+    max-height: 30%;
+    margin-top: 20%;
+    margin-left: 40%;
+    
+
+}
+
+.testing  .container .cta a{ 
+    color: white;
+    
+    padding-top: 15%;
+    padding-left: 20%;
+
+
+}
+
+
+.stories  .container h2 { 
+    padding-top: 5%;
+    color:#5a67d8;
+    
+
+}
+.stories  .container h3{ 
+    font-size: 18px;
+
+}
+.stories  .container a{ 
+    color:#5a67d8;
+
+}
+
+.stories  .container article img{ 
+    border-radius: 70%;
+    max-width: 15%;
+    max-height :5%;
+    float: left;
+    margin-right: 35px;
+    padding-left : 0;
+  
+
+}
+
+.stories   .article-body{ 
+   padding-bottom: 35px; 
+}
+
+.newsletter {
+    text-align: center;
+    padding-top: 5%;
+    background-color: #48bb78;
+}
+
+.newsletter .container .btn{
+    
+    background-color: #5a67d8;
+  
+}
+
+footer .container{
+    background-color: #4a5568;
+    padding-top: 10%;
+}
+
+footer p {
+    color:white;
+    padding-left: 20%;
+    margin-bottom: 15%;
+}
+
+
+
+
+
+
+
+
+
+
